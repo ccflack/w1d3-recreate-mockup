@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  max-width: 960px;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: red;
+  /*margin: 10px;*/
+  width: 30vw;
+  height: 30vw;
+  display: inline-block;
+  text-align: center;
+
+}

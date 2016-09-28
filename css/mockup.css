@@ -1,0 +1,51 @@
+/*Broad*/
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  width: 100%;
+  max-width: 960px;
+}
+
+/*.clearfix {
+  overflow: auto;
+  zoom: 1;
+}*/
+/*Header*/
+
+header {
+  background-color: white;
+  color: black;
+}
+
+/*Main Body*/
+
+#splash {
+  width: 100%;
+  background: url(/img/background.jpg);
+  padding: 75px;
+  text-align: center;
+  color: white;
+  font: 40px arial, sans-serif;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  max-width: 960px;
+  text-align: center;
+  background-color: black;
+  color: gray;
+}
+
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: darkgray
+}

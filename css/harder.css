@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  width: 100%;
+  max-width: 960px;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  max-width: 960px;
+  background-color:rgb(215, 215, 215);
+}
