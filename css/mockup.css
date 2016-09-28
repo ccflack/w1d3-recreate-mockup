@@ -2,41 +2,160 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
-body {
-  width: 100%;
-  max-width: 960px;
-}
-
-/*.clearfix {
-  overflow: auto;
-  zoom: 1;
-}*/
 /*Header*/
 
 header {
   background-color: white;
+  padding: 5px;
+}
+
+header a:link {
+  padding: 10px;
   color: black;
+  text-decoration: none;
+}
+header a:active {
+  color: black;
+  text-decoration: none;
+}
+header a:visited {
+  color: darkgray;
+  text-decoration: none;
 }
 
 /*Main Body*/
 
+body {
+  width: 100%;
+  /*max-width: 960px;*/
+  font-family: Helvetica, sans-serif;
+}
+
 #splash {
   width: 100%;
   background: url(/img/background.jpg);
-  padding: 75px;
+  background-size: cover;
+  padding: 111px;
   text-align: center;
   color: white;
-  font: 40px arial, sans-serif;
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/*Pricing Breakdown*/
+
+.info {
+  text-align: center;
+}
+
+.info > div {
+  margin: 5px;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+
+.level {
+  border: 1px solid #E4E4E4;
+}
+
+ul {
+  list-style: none;
+}
+
+.breakdown li {
+  background: #F7F7F7;
+  color: #4F5D63;
+  border: 1px solid #E4E4E4;
+  padding: 10px;
+}
+
+.breakdown li:first-child {
+  padding: 30px;
+  border: none;
+}
+.personal .breakdown li:first-child {
+  background: #539154;
+  color: white;
+  font-size: 20px;
+}
+.smallb .breakdown li:first-child {
+  background: #2E4A83;
+  color: white;
+  font-size: 20px;
+}
+.enterprise .breakdown li:first-child {
+  background: #111111;
+  color: white;
+  font-size: 20px;
+}
+
+li:last-child {
+  background: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pricetag {
+  display:block;
+  font-size: 60px;
+}
+
+.per-month {
+  opacity: 0.7;
+}
+
+.button {
+    margin: 15px;
+    border: 2px solid #E4E4E4;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:bold;
+    font-size: 16px;
+}
+
+/*Fine Print*/
+
+.lower {
+  margin: 20px 75px 20px 75px;
+}
+
+.fine-print {
+  margin: 0 auto;
+  padding: 25px;
+  color: #546268;
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  line-height: 150%;
+}
+
+.heading {
+  padding-bottom: 10px;
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 5px;
 }
 
 /*Footer*/
 
 footer {
+  padding: 20px;
   width: 100%;
-  max-width: 960px;
   text-align: center;
   background-color: black;
   color: gray;

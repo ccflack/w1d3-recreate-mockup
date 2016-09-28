@@ -11,11 +11,10 @@ body {
 
 .box {
   margin: 0 auto;
-  background-color: red;
+  /*background-color: red;*/
   /*margin: 10px;*/
   width: 30vw;
   height: 30vw;
   display: inline-block;
   text-align: center;
-
 }
